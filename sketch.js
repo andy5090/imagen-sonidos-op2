@@ -265,9 +265,7 @@ function mousePressed() {
   }
 }
 
-function keyPressed() {
-  if (key === "f" || key === "F") {
-    let fs = fullscreen();
-    fullscreen(!fs);
-  }
+function mouseClicked() {
+  const fs = fullscreen();
+  fullscreen(!fs);
 }
